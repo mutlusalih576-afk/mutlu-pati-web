@@ -1,0 +1,26 @@
+{
+  "whatsapp_number": "905XXXXXXXXX",
+  "items": [
+    {
+      "name": "Yetişkin Kedi Maması 2kg",
+      "description": "Tahıl içermeyen, tavuklu tarif — günlük beslenme için.",
+      "price": 349,
+      "image": "",
+      "payment_link": ""
+    },
+    {
+      "name": "Zekâ Geliştirici Top Oyuncak",
+      "description": "Ödül gizleyebilen, dayanıklı kauçuk yapı — köpekler için.",
+      "price": 129,
+      "image": "",
+      "payment_link": ""
+    },
+    {
+      "name": "Köpek Şampuanı 500ml",
+      "description": "Hassas ciltler için pH dengeli, doğal içerikli formül.",
+      "price": 189,
+      "image": "",
+      "payment_link": ""
+    }
+  ]
+}
