@@ -530,6 +530,7 @@
     <p>WhatsApp'tan sipariş verebilir ya da kartla doğrudan ödeme yapabilirsiniz.</p>
   </div>
 
+  <div class="cat-filter-row" id="petFilterRow"></div>
   <div class="cat-filter-row" id="catFilterRow"></div>
 
   <div class="product-grid" id="productGrid">
@@ -552,6 +553,7 @@
   var allItems = [];
   var currentWaNumber = '905XXXXXXXXX';
   var activeCategory = 'Tümü';
+  var activePetType = 'Tümü';
 
   function escapeHtml(str) {
     return String(str == null ? '' : str).replace(/[&<>"']/g, function (c) {
@@ -662,6 +664,22 @@
     if (overlay) overlay.addEventListener('click', closeCart);
   })();
 
+  (function wirePetCategoryCards() {
+    document.querySelectorAll('.cat-card[data-pet]').forEach(function (card) {
+      function activate() {
+        activePetType = card.getAttribute('data-pet');
+        renderFilters();
+        renderGrid();
+        var target = document.getElementById('urunler');
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      card.addEventListener('click', activate);
+      card.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+      });
+    });
+  })();
+
   function renderFilters() {
     var row = document.getElementById('catFilterRow');
     var cats = ['Tümü'];
@@ -669,24 +687,47 @@
       var c = item.category || 'Diğer';
       if (cats.indexOf(c) === -1) cats.push(c);
     });
-    if (cats.length <= 2) { row.innerHTML = ''; return; }
-    row.innerHTML = cats.map(function (c) {
-      var activeClass = c === activeCategory ? ' active' : '';
-      return '<button type="button" class="cat-filter-btn' + activeClass + '" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>';
-    }).join('');
-    row.querySelectorAll('.cat-filter-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        activeCategory = btn.getAttribute('data-cat');
-        renderFilters();
-        renderGrid();
+    if (cats.length <= 2) { row.innerHTML = ''; } else {
+      row.innerHTML = cats.map(function (c) {
+        var activeClass = c === activeCategory ? ' active' : '';
+        return '<button type="button" class="cat-filter-btn' + activeClass + '" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>';
+      }).join('');
+      row.querySelectorAll('.cat-filter-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          activeCategory = btn.getAttribute('data-cat');
+          renderFilters();
+          renderGrid();
+        });
       });
+    }
+
+    var petRow = document.getElementById('petFilterRow');
+    var pets = ['Tümü'];
+    allItems.forEach(function (item) {
+      var p = item.pet_type || 'Genel';
+      if (pets.indexOf(p) === -1) pets.push(p);
     });
+    if (pets.length <= 2) { petRow.innerHTML = ''; } else {
+      petRow.innerHTML = pets.map(function (p) {
+        var activeClass = p === activePetType ? ' active' : '';
+        return '<button type="button" class="cat-filter-btn' + activeClass + '" data-pet="' + escapeHtml(p) + '">' + escapeHtml(p) + '</button>';
+      }).join('');
+      petRow.querySelectorAll('.cat-filter-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          activePetType = btn.getAttribute('data-pet');
+          renderFilters();
+          renderGrid();
+        });
+      });
+    }
   }
 
   function renderGrid() {
     var grid = document.getElementById('productGrid');
     var items = allItems.filter(function (item) {
-      return activeCategory === 'Tümü' || (item.category || 'Diğer') === activeCategory;
+      var catOk = activeCategory === 'Tümü' || (item.category || 'Diğer') === activeCategory;
+      var petOk = activePetType === 'Tümü' || (item.pet_type || 'Genel') === activePetType;
+      return catOk && petOk;
     });
     if (!items.length) {
       grid.innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Bu kategoride henüz ürün yok.</p>';
@@ -790,27 +831,27 @@
     <p>Kedi, köpek, kuş ve daha fazlası — türüne özel ürün ve hizmetlerimizle tanışın.</p>
   </div>
   <div class="cat-grid">
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Köpek" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:#FBEAE6"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="7" ry="6" fill="#E85D45"/><path d="M6 8l-1-4 5 3z" fill="#E85D45"/><path d="M18 8l1-4-5 3z" fill="#E85D45"/></svg></div>
       <span>Köpekler</span>
     </div>
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Kedi" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:var(--teal-soft)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="6.5" ry="5.6" fill="#12776B"/><path d="M7 9l-4-4 6 2z" fill="#12776B"/><path d="M17 9l4-4-6 2z" fill="#12776B"/></svg></div>
       <span>Kediler</span>
     </div>
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Kuş" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:var(--gold-soft)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="6.5" fill="#D99A34"/><path d="M18 11l4-2-1.5 4z" fill="#D99A34"/></svg></div>
       <span>Kuşlar</span>
     </div>
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Balık" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:#EDE8FB"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="11" cy="12" rx="7" ry="5.5" fill="#7C5CD6"/><path d="M18 10q6-2 6 3t-6 2z" fill="#7C5CD6"/></svg></div>
       <span>Balıklar</span>
     </div>
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Tavşan" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:#E4F1EE"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="7" ry="6" fill="#0F675D"/><circle cx="6.5" cy="9" r="3" fill="#0F675D"/><circle cx="17.5" cy="9" r="3" fill="#0F675D"/></svg></div>
       <span>Tavşanlar</span>
     </div>
-    <div class="cat-card">
+    <div class="cat-card" data-pet="Kemirgen" role="button" tabindex="0" style="cursor:pointer;">
       <div class="icon-dot" style="background:#FDEDE8"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="6.5" ry="5" fill="#C84A34"/><circle cx="6" cy="12" r="2.2" fill="#C84A34"/><circle cx="18" cy="12" r="2.2" fill="#C84A34"/></svg></div>
       <span>Kemirgenler</span>
     </div>
