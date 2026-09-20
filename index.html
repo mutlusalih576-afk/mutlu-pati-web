@@ -420,14 +420,14 @@
 
 <header>
   <nav class="wrap">
-    <div class="logo">
+    <a href="index.html" class="logo" style="text-decoration:none;">
       <div class="logo-mark">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-6.5-4.2-8.8-8.4A5 5 0 0112 6.2 5 5 0 0120.8 12.6C18.5 16.8 12 21 12 21z" fill="#FBF8F3"/></svg>
       </div>
       <span class="logo-word">Mutlu Pati</span>
-    </div>
+    </a>
     <ul class="navlinks" id="navlinks">
-      <li><a href="#urunler">Ürünler</a></li>
+      <li><a href="urunler.html">Ürünler</a></li>
       <li><a href="#hizmetler">Hizmetler</a></li>
       <li><a href="#hakkimizda">Hakkımızda</a></li>
       <li><a href="#kategoriler">Kategoriler</a></li>
@@ -546,14 +546,16 @@
       <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
       Ürünlerimiz
     </span>
-    <h2>Hangi dostunuz için bakıyorsunuz?</h2>
-    <p>Önce dostunuzu seçin, ardından mama, oyuncak, bakım gibi kategorilere ayrılmış ürünleri görün.</p>
+    <h2>Öne çıkan ürünler</h2>
+    <p>Mama, oyuncak, bakım ve daha fazlası — tüm ürünlerimizi hayvan türüne ve kategoriye göre inceleyin.</p>
   </div>
 
-  <div class="pet-select-row" id="petSelectRow"></div>
+  <div class="product-grid" id="featuredGrid">
+    <p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Ürünler yükleniyor...</p>
+  </div>
 
-  <div id="productGroups">
-    <p style="color:var(--ink-soft); text-align:center;">Ürünler yükleniyor...</p>
+  <div style="text-align:center; margin-top:36px;">
+    <a href="urunler.html" class="btn btn-primary">Tüm Ürünleri İncele</a>
   </div>
 
   <div style="margin-top:36px; border:1px solid var(--line); border-radius:18px; padding:24px 28px; background:var(--surface); display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;">
@@ -686,11 +688,7 @@
   (function wirePetCategoryCards() {
     document.querySelectorAll('.cat-card[data-pet]').forEach(function (card) {
       function activate() {
-        activePetType = card.getAttribute('data-pet');
-        renderPetSelect();
-        renderProductGroups();
-        var target = document.getElementById('urunler');
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.location.href = 'urunler.html?pet=' + encodeURIComponent(card.getAttribute('data-pet'));
       }
       card.addEventListener('click', activate);
       card.addEventListener('keydown', function (e) {
@@ -698,44 +696,6 @@
       });
     });
   })();
-
-  var PET_ICONS = {
-    'Köpek': { bg: '#FBEAE6', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="7" ry="6" fill="#E85D45"/><path d="M6 8l-1-4 5 3z" fill="#E85D45"/><path d="M18 8l1-4-5 3z" fill="#E85D45"/></svg>' },
-    'Kedi': { bg: 'var(--teal-soft)', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="6.5" ry="5.6" fill="#12776B"/><path d="M7 9l-4-4 6 2z" fill="#12776B"/><path d="M17 9l4-4-6 2z" fill="#12776B"/></svg>' },
-    'Kuş': { bg: 'var(--gold-soft)', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="6.5" fill="#D99A34"/><path d="M18 11l4-2-1.5 4z" fill="#D99A34"/></svg>' },
-    'Balık': { bg: '#EDE8FB', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="11" cy="12" rx="7" ry="5.5" fill="#7C5CD6"/><path d="M18 10q6-2 6 3t-6 2z" fill="#7C5CD6"/></svg>' },
-    'Tavşan': { bg: '#E4F1EE', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="7" ry="6" fill="#0F675D"/><circle cx="6.5" cy="9" r="3" fill="#0F675D"/><circle cx="17.5" cy="9" r="3" fill="#0F675D"/></svg>' },
-    'Kemirgen': { bg: '#FDEDE8', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="6.5" ry="5" fill="#C84A34"/><circle cx="6" cy="12" r="2.2" fill="#C84A34"/><circle cx="18" cy="12" r="2.2" fill="#C84A34"/></svg>' },
-    'Genel': { bg: '#EFEAFB', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0112 6.5 5.5 5.5 0 0121.5 12c-2.5 4.5-9.5 9-9.5 9z" fill="#8C6FF7"/></svg>' }
-  };
-  var CATEGORY_ORDER = ['Mama', 'Oyuncak', 'Bakım', 'Elbise & Aksesuar', 'Tuvalet & Kum', 'Diğer'];
-
-  function renderPetSelect() {
-    var row = document.getElementById('petSelectRow');
-    var pets = [];
-    allItems.forEach(function (item) {
-      var p = item.pet_type || 'Genel';
-      if (pets.indexOf(p) === -1) pets.push(p);
-    });
-    var allBtn = '<button type="button" class="pet-select-btn' + (activePetType === 'Tümü' ? ' active' : '') + '" data-pet="Tümü">' +
-      '<div class="icon-dot" style="background:var(--ink); ' + (activePetType === 'Tümü' ? '' : '') + '"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" fill="' + (activePetType === 'Tümü' ? '#fff' : '#fff') + '"/></svg></div>' +
-      '<span>Tümü</span></button>';
-    var petBtns = pets.map(function (p) {
-      var icon = PET_ICONS[p] || PET_ICONS['Genel'];
-      var activeClass = p === activePetType ? ' active' : '';
-      return '<button type="button" class="pet-select-btn' + activeClass + '" data-pet="' + escapeHtml(p) + '">' +
-        '<div class="icon-dot" style="background:' + icon.bg + '">' + icon.svg + '</div>' +
-        '<span>' + escapeHtml(p) + '</span></button>';
-    }).join('');
-    row.innerHTML = allBtn + petBtns;
-    row.querySelectorAll('.pet-select-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        activePetType = btn.getAttribute('data-pet');
-        renderPetSelect();
-        renderProductGroups();
-      });
-    });
-  }
 
   function buildProductCard(item, i) {
     var name = escapeHtml(item.name);
@@ -768,39 +728,16 @@
       '</div>';
   }
 
-  function renderProductGroups() {
-    var container = document.getElementById('productGroups');
-    var items = allItems.filter(function (item) {
-      return activePetType === 'Tümü' || (item.pet_type || 'Genel') === activePetType;
-    });
+  function renderFeatured() {
+    var grid = document.getElementById('featuredGrid');
+    if (!grid) return;
+    var items = allItems.slice(0, 3);
     if (!items.length) {
-      container.innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Bu dost için henüz ürün eklenmedi.</p>';
+      grid.innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Henüz ürün eklenmedi.</p>';
       return;
     }
-    var byCategory = {};
-    items.forEach(function (item) {
-      var c = item.category || 'Diğer';
-      if (!byCategory[c]) byCategory[c] = [];
-      byCategory[c].push(item);
-    });
-    var orderedCats = CATEGORY_ORDER.filter(function (c) { return byCategory[c]; });
-    Object.keys(byCategory).forEach(function (c) {
-      if (orderedCats.indexOf(c) === -1) orderedCats.push(c);
-    });
-    var counter = 0;
-    container.innerHTML = orderedCats.map(function (cat) {
-      var cards = byCategory[cat].map(function (item) {
-        var html = buildProductCard(item, counter);
-        counter++;
-        return html;
-      }).join('');
-      return '' +
-        '<div class="product-group">' +
-          '<h3 class="product-group-title">' + escapeHtml(cat) + '</h3>' +
-          '<div class="product-grid">' + cards + '</div>' +
-        '</div>';
-    }).join('');
-    container.querySelectorAll('[data-add-name]').forEach(function (btn) {
+    grid.innerHTML = items.map(function (item, i) { return buildProductCard(item, i); }).join('');
+    grid.querySelectorAll('[data-add-name]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         addToCart(btn.getAttribute('data-add-name'));
       });
@@ -813,11 +750,10 @@
       currentWaNumber = data.whatsapp_number || '905XXXXXXXXX';
       allItems = data.items || [];
       if (!allItems.length) {
-        document.getElementById('productGroups').innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Henüz ürün eklenmedi.</p>';
+        document.getElementById('featuredGrid').innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Henüz ürün eklenmedi.</p>';
         return;
       }
-      renderPetSelect();
-      renderProductGroups();
+      renderFeatured();
       renderCart();
 
       // wire up the floating WhatsApp button now that we know the number
@@ -825,8 +761,9 @@
       if (waFloat) waFloat.href = 'https://wa.me/' + currentWaNumber + '?text=' + encodeURIComponent('Merhaba, bir sorum var');
     })
     .catch(function () {
-      document.getElementById('productGroups').innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Ürünler yüklenemedi.</p>';
+      document.getElementById('featuredGrid').innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Ürünler yüklenemedi.</p>';
     });
+
 })();
 </script>
 
