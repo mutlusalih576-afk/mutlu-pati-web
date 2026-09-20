@@ -26,6 +26,18 @@ collections:
             summary: "{{fields.name}} — ₺{{fields.price}}"
             fields:
               - {label: "Ürün Adı", name: "name", widget: "string"}
+              - label: "Kategori"
+                name: "category"
+                widget: "select"
+                required: false
+                default: "Diğer"
+                options: ["Mama", "Oyuncak", "Bakım", "Elbise & Aksesuar", "Tuvalet & Kum", "Diğer"]
+              - label: "Hayvan Türü"
+                name: "pet_type"
+                widget: "select"
+                required: false
+                default: "Genel"
+                options: ["Köpek", "Kedi", "Kuş", "Balık", "Tavşan", "Kemirgen", "Genel"]
               - {label: "Açıklama", name: "description", widget: "text", required: false}
               - {label: "Fiyat (₺)", name: "price", widget: "number", value_type: "float"}
               - {label: "Fotoğraf", name: "image", widget: "image", required: false, choose_url: false}
