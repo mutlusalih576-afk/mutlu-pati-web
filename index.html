@@ -259,6 +259,26 @@
   .cat-filter-btn:hover{ border-color: var(--coral); color: var(--ink); }
   .cat-filter-btn.active{ background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
+  .pet-select-row{ display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-bottom:44px; }
+  .pet-select-btn{
+    display:flex; flex-direction:column; align-items:center; gap:10px;
+    padding:18px 22px; border-radius:20px; border:1.5px solid var(--line);
+    background: var(--surface); cursor:pointer; transition: all .18s ease;
+    min-width:96px;
+  }
+  .pet-select-btn:hover{ transform: translateY(-3px); box-shadow: var(--shadow-sm); }
+  .pet-select-btn.active{ border-color: var(--ink); background: var(--ink); }
+  .pet-select-btn.active span{ color: var(--bg); }
+  .pet-select-btn .icon-dot{ width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+  .pet-select-btn span{ font-weight:700; font-size:0.9rem; color: var(--ink); }
+
+  .product-group{ margin-bottom:48px; }
+  .product-group-title{
+    font-family:'Fraunces'; font-size:1.3rem; font-weight:600; margin-bottom:20px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .product-group-title::after{ content:''; flex:1; height:1px; background: var(--line); }
+
   /* Sticky floating WhatsApp button */
   .wa-float{
     position: fixed; right: 22px; bottom: 22px; z-index: 90;
@@ -526,15 +546,14 @@
       <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
       Ürünlerimiz
     </span>
-    <h2>Öne çıkan ürünler</h2>
-    <p>WhatsApp'tan sipariş verebilir ya da kartla doğrudan ödeme yapabilirsiniz.</p>
+    <h2>Hangi dostunuz için bakıyorsunuz?</h2>
+    <p>Önce dostunuzu seçin, ardından mama, oyuncak, bakım gibi kategorilere ayrılmış ürünleri görün.</p>
   </div>
 
-  <div class="cat-filter-row" id="petFilterRow"></div>
-  <div class="cat-filter-row" id="catFilterRow"></div>
+  <div class="pet-select-row" id="petSelectRow"></div>
 
-  <div class="product-grid" id="productGrid">
-    <p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Ürünler yükleniyor...</p>
+  <div id="productGroups">
+    <p style="color:var(--ink-soft); text-align:center;">Ürünler yükleniyor...</p>
   </div>
 
   <div style="margin-top:36px; border:1px solid var(--line); border-radius:18px; padding:24px 28px; background:var(--surface); display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;">
@@ -668,8 +687,8 @@
     document.querySelectorAll('.cat-card[data-pet]').forEach(function (card) {
       function activate() {
         activePetType = card.getAttribute('data-pet');
-        renderFilters();
-        renderGrid();
+        renderPetSelect();
+        renderProductGroups();
         var target = document.getElementById('urunler');
         if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
@@ -680,92 +699,108 @@
     });
   })();
 
-  function renderFilters() {
-    var row = document.getElementById('catFilterRow');
-    var cats = ['Tümü'];
-    allItems.forEach(function (item) {
-      var c = item.category || 'Diğer';
-      if (cats.indexOf(c) === -1) cats.push(c);
-    });
-    if (cats.length <= 2) { row.innerHTML = ''; } else {
-      row.innerHTML = cats.map(function (c) {
-        var activeClass = c === activeCategory ? ' active' : '';
-        return '<button type="button" class="cat-filter-btn' + activeClass + '" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>';
-      }).join('');
-      row.querySelectorAll('.cat-filter-btn').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          activeCategory = btn.getAttribute('data-cat');
-          renderFilters();
-          renderGrid();
-        });
-      });
-    }
+  var PET_ICONS = {
+    'Köpek': { bg: '#FBEAE6', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="7" ry="6" fill="#E85D45"/><path d="M6 8l-1-4 5 3z" fill="#E85D45"/><path d="M18 8l1-4-5 3z" fill="#E85D45"/></svg>' },
+    'Kedi': { bg: 'var(--teal-soft)', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="14" rx="6.5" ry="5.6" fill="#12776B"/><path d="M7 9l-4-4 6 2z" fill="#12776B"/><path d="M17 9l4-4-6 2z" fill="#12776B"/></svg>' },
+    'Kuş': { bg: 'var(--gold-soft)', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="6.5" fill="#D99A34"/><path d="M18 11l4-2-1.5 4z" fill="#D99A34"/></svg>' },
+    'Balık': { bg: '#EDE8FB', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="11" cy="12" rx="7" ry="5.5" fill="#7C5CD6"/><path d="M18 10q6-2 6 3t-6 2z" fill="#7C5CD6"/></svg>' },
+    'Tavşan': { bg: '#E4F1EE', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="7" ry="6" fill="#0F675D"/><circle cx="6.5" cy="9" r="3" fill="#0F675D"/><circle cx="17.5" cy="9" r="3" fill="#0F675D"/></svg>' },
+    'Kemirgen': { bg: '#FDEDE8', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="13" rx="6.5" ry="5" fill="#C84A34"/><circle cx="6" cy="12" r="2.2" fill="#C84A34"/><circle cx="18" cy="12" r="2.2" fill="#C84A34"/></svg>' },
+    'Genel': { bg: '#EFEAFB', svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0112 6.5 5.5 5.5 0 0121.5 12c-2.5 4.5-9.5 9-9.5 9z" fill="#8C6FF7"/></svg>' }
+  };
+  var CATEGORY_ORDER = ['Mama', 'Oyuncak', 'Bakım', 'Elbise & Aksesuar', 'Tuvalet & Kum', 'Diğer'];
 
-    var petRow = document.getElementById('petFilterRow');
-    var pets = ['Tümü'];
+  function renderPetSelect() {
+    var row = document.getElementById('petSelectRow');
+    var pets = [];
     allItems.forEach(function (item) {
       var p = item.pet_type || 'Genel';
       if (pets.indexOf(p) === -1) pets.push(p);
     });
-    if (pets.length <= 2) { petRow.innerHTML = ''; } else {
-      petRow.innerHTML = pets.map(function (p) {
-        var activeClass = p === activePetType ? ' active' : '';
-        return '<button type="button" class="cat-filter-btn' + activeClass + '" data-pet="' + escapeHtml(p) + '">' + escapeHtml(p) + '</button>';
-      }).join('');
-      petRow.querySelectorAll('.cat-filter-btn').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          activePetType = btn.getAttribute('data-pet');
-          renderFilters();
-          renderGrid();
-        });
+    var allBtn = '<button type="button" class="pet-select-btn' + (activePetType === 'Tümü' ? ' active' : '') + '" data-pet="Tümü">' +
+      '<div class="icon-dot" style="background:var(--ink); ' + (activePetType === 'Tümü' ? '' : '') + '"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" fill="' + (activePetType === 'Tümü' ? '#fff' : '#fff') + '"/></svg></div>' +
+      '<span>Tümü</span></button>';
+    var petBtns = pets.map(function (p) {
+      var icon = PET_ICONS[p] || PET_ICONS['Genel'];
+      var activeClass = p === activePetType ? ' active' : '';
+      return '<button type="button" class="pet-select-btn' + activeClass + '" data-pet="' + escapeHtml(p) + '">' +
+        '<div class="icon-dot" style="background:' + icon.bg + '">' + icon.svg + '</div>' +
+        '<span>' + escapeHtml(p) + '</span></button>';
+    }).join('');
+    row.innerHTML = allBtn + petBtns;
+    row.querySelectorAll('.pet-select-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        activePetType = btn.getAttribute('data-pet');
+        renderPetSelect();
+        renderProductGroups();
       });
-    }
+    });
   }
 
-  function renderGrid() {
-    var grid = document.getElementById('productGrid');
+  function buildProductCard(item, i) {
+    var name = escapeHtml(item.name);
+    var desc = escapeHtml(item.description);
+    var price = item.price != null ? '₺' + item.price : '';
+    var photoHtml;
+    if (item.image) {
+      photoHtml = '<div class="product-photo" style="padding:0; overflow:hidden;"><img src="' + escapeHtml(item.image) + '" alt="' + name + '" style="width:100%; height:100%; object-fit:cover;"></div>';
+    } else {
+      var bg = FALLBACK_COLORS[i % FALLBACK_COLORS.length];
+      photoHtml = '<div class="product-photo" style="background:' + bg + '"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#D99A34" stroke-width="1.6"/></svg></div>';
+    }
+    var cardBtnHtml = '';
+    if (item.payment_link) {
+      cardBtnHtml = '<a class="whatsapp-btn" style="background:var(--ink); margin-top:10px;" href="' + escapeHtml(item.payment_link) + '" target="_blank" rel="noopener">' + CARD_ICON + ' Kartla Öde</a>';
+    }
+    return '' +
+      '<div class="product-card">' +
+        photoHtml +
+        '<div class="product-body">' +
+          '<h3>' + name + '</h3>' +
+          '<p>' + desc + '</p>' +
+          '<div class="product-price">' + price + '</div>' +
+          '<button type="button" class="whatsapp-btn" style="background:var(--coral); border:none; cursor:pointer; font:inherit;" data-add-name="' + name + '">' +
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4"/><circle cx="18" cy="21" r="1.4"/><path d="M2.5 3h2l2.6 12.4a2 2 0 002 1.6h8.4a2 2 0 002-1.6L21 7H6"/></svg>' +
+            ' Sepete Ekle' +
+          '</button>' +
+          cardBtnHtml +
+        '</div>' +
+      '</div>';
+  }
+
+  function renderProductGroups() {
+    var container = document.getElementById('productGroups');
     var items = allItems.filter(function (item) {
-      var catOk = activeCategory === 'Tümü' || (item.category || 'Diğer') === activeCategory;
-      var petOk = activePetType === 'Tümü' || (item.pet_type || 'Genel') === activePetType;
-      return catOk && petOk;
+      return activePetType === 'Tümü' || (item.pet_type || 'Genel') === activePetType;
     });
     if (!items.length) {
-      grid.innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Bu kategoride henüz ürün yok.</p>';
+      container.innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Bu dost için henüz ürün eklenmedi.</p>';
       return;
     }
-    grid.innerHTML = items.map(function (item, i) {
-      var name = escapeHtml(item.name);
-      var desc = escapeHtml(item.description);
-      var price = item.price != null ? '₺' + item.price : '';
-      var waText = encodeURIComponent('Merhaba, ' + (item.name || '') + ' ürünü hakkında bilgi almak istiyorum');
-      var waHref = 'https://wa.me/' + currentWaNumber + '?text=' + waText;
-      var photoHtml;
-      if (item.image) {
-        photoHtml = '<div class="product-photo" style="padding:0; overflow:hidden;"><img src="' + escapeHtml(item.image) + '" alt="' + name + '" style="width:100%; height:100%; object-fit:cover;"></div>';
-      } else {
-        var bg = FALLBACK_COLORS[i % FALLBACK_COLORS.length];
-        photoHtml = '<div class="product-photo" style="background:' + bg + '"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#D99A34" stroke-width="1.6"/></svg></div>';
-      }
-      var cardBtnHtml = '';
-      if (item.payment_link) {
-        cardBtnHtml = '<a class="whatsapp-btn" style="background:var(--ink); margin-top:10px;" href="' + escapeHtml(item.payment_link) + '" target="_blank" rel="noopener">' + CARD_ICON + ' Kartla Öde</a>';
-      }
+    var byCategory = {};
+    items.forEach(function (item) {
+      var c = item.category || 'Diğer';
+      if (!byCategory[c]) byCategory[c] = [];
+      byCategory[c].push(item);
+    });
+    var orderedCats = CATEGORY_ORDER.filter(function (c) { return byCategory[c]; });
+    Object.keys(byCategory).forEach(function (c) {
+      if (orderedCats.indexOf(c) === -1) orderedCats.push(c);
+    });
+    var counter = 0;
+    container.innerHTML = orderedCats.map(function (cat) {
+      var cards = byCategory[cat].map(function (item) {
+        var html = buildProductCard(item, counter);
+        counter++;
+        return html;
+      }).join('');
       return '' +
-        '<div class="product-card">' +
-          photoHtml +
-          '<div class="product-body">' +
-            '<h3>' + name + '</h3>' +
-            '<p>' + desc + '</p>' +
-            '<div class="product-price">' + price + '</div>' +
-            '<button type="button" class="whatsapp-btn" style="background:var(--coral); border:none; cursor:pointer; font:inherit;" data-add-name="' + name + '">' +
-              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4"/><circle cx="18" cy="21" r="1.4"/><path d="M2.5 3h2l2.6 12.4a2 2 0 002 1.6h8.4a2 2 0 002-1.6L21 7H6"/></svg>' +
-              ' Sepete Ekle' +
-            '</button>' +
-            cardBtnHtml +
-          '</div>' +
+        '<div class="product-group">' +
+          '<h3 class="product-group-title">' + escapeHtml(cat) + '</h3>' +
+          '<div class="product-grid">' + cards + '</div>' +
         '</div>';
     }).join('');
-    grid.querySelectorAll('[data-add-name]').forEach(function (btn) {
+    container.querySelectorAll('[data-add-name]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         addToCart(btn.getAttribute('data-add-name'));
       });
@@ -778,11 +813,11 @@
       currentWaNumber = data.whatsapp_number || '905XXXXXXXXX';
       allItems = data.items || [];
       if (!allItems.length) {
-        document.getElementById('productGrid').innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Henüz ürün eklenmedi.</p>';
+        document.getElementById('productGroups').innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Henüz ürün eklenmedi.</p>';
         return;
       }
-      renderFilters();
-      renderGrid();
+      renderPetSelect();
+      renderProductGroups();
       renderCart();
 
       // wire up the floating WhatsApp button now that we know the number
@@ -790,7 +825,7 @@
       if (waFloat) waFloat.href = 'https://wa.me/' + currentWaNumber + '?text=' + encodeURIComponent('Merhaba, bir sorum var');
     })
     .catch(function () {
-      document.getElementById('productGrid').innerHTML = '<p style="color:var(--ink-soft); text-align:center; grid-column:1/-1;">Ürünler yüklenemedi.</p>';
+      document.getElementById('productGroups').innerHTML = '<p style="color:var(--ink-soft); text-align:center;">Ürünler yüklenemedi.</p>';
     });
 })();
 </script>
