@@ -8,6 +8,614 @@
       "price": 632,
       "category": "Mama",
       "pet_type": "Kedi"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Aktif Karbon (İnce Tane) Topaklanan Bentonit Kedi Kumu  (10 LT ) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar.\n Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 380,
+      "image": "/images/uploads/mycat-10-lt-bentonit-kedi-kumu-aktif-carbon-ince-tane-resim-316.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Çam Pelleti Kedi Kumu 2 KG",
+      "description": "Ürünün Kullanım Şekli: Ortalama 30x40 cm’lik bir alan için 6-7 cm yüksekliğinde koyulması yeterlidir. Üst kısımlar sıvı ile temas ettikçe kedi kumu kabınızı sallayarak ıslanan kısımların toz haline gelerek dibe inmesini sağlayın.\n\nYüksek sıvı emiş hacmi\n\nÇam kokulu\n\nKötü kokuları hapseder.",
+      "price": 420,
+      "image": "/images/uploads/mycat-cam-pelleti-kedi-kumu-2kg-resim-340.png"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": " Aktif Karbon (Kalın Tane) Topaklanan Bentonit Kedi Kumu (10 LT ) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur",
+      "price": 380,
+      "image": "/images/uploads/mycat-10-lt-bentonit-kedi-kumu-aktif-carbon-kalin-tane-resim-349.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Marsilya Sabun Kokulu (Kalın Tane) Topaklanan Bentonit Kedi Kumu (10 LT) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 380,
+      "image": "/images/uploads/mycat-10-lt-bentonit-kedi-kumu-marsilya-sabun-kokulu-kalin-tane-resim-351.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Portakal Kokulu (İnce Tane) Topaklanan Bentonit Kedi Kumu (10 LT) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 380,
+      "image": "/images/uploads/mycat-10-lt-bentonit-kedi-kumu-portakal-kokulu-ince-tane-resim-360.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Lavanta Kokulu (İnce Tane) Topaklanan Bentonit Kedi Kumu  (10 LT )",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 380,
+      "image": "/images/uploads/mycat-5-lt-bentonit-kedi-kumu-lavanta-kokulu-ince-tane-resim-361.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Marsilya Sabun Kokulu (İnce Tane) Topaklanan Bentonit Kedi Kumu(10 LT) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 380,
+      "image": "/images/uploads/mycat-5-lt-bentonit-kedi-kumu-marsilya-sabun-kokulu-ince-tane-resim-362.jpg"
+    },
+    {
+      "category": "Bakım",
+      "pet_type": "Kedi",
+      "name": "MYCAT DOĞAL KEDİ ÇİMİ JUMBO BOY",
+      "description": "Kedilerin midesinde biriken tüy topaklarını çıkarabilmesi ve sindirim sisteminin temizlenmesine katkı sağlar. Yeşil yapraklarda bulunan klorofil vücutta detoks etkisi oluşturur. Vücudu daha zinde tutarak, iç organların ve dolaşım sisteminin çalışmasını kolaylaştırır. Mide ve bağırsaklarda kötü kokuya neden olan bakterilerin üremesini engeller. Extra vitamin kaynağıdır.",
+      "price": 300,
+      "image": "/images/uploads/mycat-dogal-kedi-cimi-resim-446.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı ve Tavuk Etli Yetişkin Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı ve Tavuk Etli Yetişkin Kedi Maması 2kg\n\nAZ TAHILLI SOMON BALIK VE TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nPROTEİN  %32\nFAT / YAĞ %15",
+      "price": 520,
+      "image": "/images/uploads/az-tahilli-somon-balikli-ve-tavuk-etli-yetiskin-kedi-mamasi-2kg-resim-464.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 2kg\n\nAZ TAHILLI KUZU ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nPROTEİN  %32\nFAT / YAĞ %14",
+      "price": 520,
+      "image": "/images/uploads/mycat-az-tahilli-kuzu-etli-yetiskin-kedi-mamasi-2kg-resim-467.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 2kg\n\nAZ TAHILLI SOMON BALIKLI TÜM IRK KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nKİLOLU VEYA KISIR TÜM IRK KEDİLER KULLANABİLİR KİLO KONTROLÜ SAĞLAR.",
+      "price": 320,
+      "image": "/images/uploads/mycat-az-tahilli-somon-balikli-diyet-kisir-kedi-mamasi-2kg-resim-468.png"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": " Pudra Kokulu (İnce Tane) Topaklanan Bentonit Kedi Kumu (10 LT)",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 320,
+      "image": "/images/uploads/mycat-10-lt-bentonit-kedi-kumu-pudra-kokulu-ince-tane-resim-3041.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Etli Pouch Yaş Mama 85gr 24'Lü 4054",
+      "description": "JÖLE İÇİNDE KUZU ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Kuzu Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-kuzu-etli-pouch-yas-mama-8-resim-5618.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Etli Pouch Yaş Mama 85gr 24'Lü 4016",
+      "description": "JÖLE İÇİNDE TAVUK ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-tavuk-etli-pouch-yas-mama-resim-5619.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Sığır Etli Pouch Yaş Mama 85gr 24'Lü 4030 ",
+      "description": "JÖLE İÇİNDE SIĞIR ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Sığır Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-sigir-etli-pouch-yas-mama-resim-5620.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somonlu Pouch Yaş Mama 85gr 24'Lü 4009",
+      "description": "JÖLE İÇİNDE SOMON ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Somon balığı), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-somonlu-pouch-yas-mama-85g-resim-5621.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Etli Kitten Pouch Yaş Mama 85gr 24'Lü 4061",
+      "description": "YAVRU KEDİLER İÇİN JÖLE İÇİNDE TAVUK ETLİ  TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk Eti), mineraller. Renklendirici ve koruyucu madde içermez\n\n",
+      "price": 555,
+      "image": "/images/uploads/mycat-tavuk-etli-kitten-pouch-ya-resim-5622.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Hamsi Ve Ton Balıklı Pouch Yaş Mama 85gr 24'Lü 4047",
+      "description": "JÖLE İÇİNDE TON BALIĞI VE HAMSİLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Ton balığı),(en az %4 Hamsi)\nmineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-hamsi-ve-ton-balikli-pouch-resim-5623.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Ciğerli Pouch Yaş Mama 85gr 24'Lü 4078",
+      "description": "JÖLE İÇİNDE CİĞERLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk ciğeri),\nmineraller. Renklendirici ve koruyucu madde içermez\n\n",
+      "price": 555,
+      "image": "/images/uploads/mycat-cigerli-pouch-yas-mama-85g-resim-5625.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somonlu (Kısırlaştırılmış) Sterilised Pouch Yaş Mama 85gr 24'Lü 4023",
+      "description": "KISIRLAŞTIRILMIŞ KEDİLER İÇİN JÖLE İÇİNDE SOMON ETLI TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Somon balığı),\nmineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 555,
+      "image": "/images/uploads/mycat-somonlu-kisirlastirilmis-resim-6366.jpg"
+    },
+    {
+      "category": "Tuvalet & Kum",
+      "pet_type": "Kedi",
+      "name": "Special Topaklanan (İnce Tane) Bentonit Kedi Kumu (20 LT) ",
+      "description": "MyCat Bentonit Kedi Kumu, koku ve sıvı emme kapasitesi çok yüksen olan özel bir bentonit madeninden üretilmiştir. Bentonit sıradan kumlara göre daha az atık oluşturarak uzun süreli ve ekonomik kullanımını sağlar. Aktif karbon taneleri kötü kokuları daha hızlı ve fazla emerek ferah bir ortam oluşmasında etkin rol oynar. Tamamen doğal Bentonit’in içerisinde hiçbir toksit madde bulunmamaktadır. İçerisindeki minerallerin geometrik yapıları sayesinde yüksek sıvı emme kapasitesine sahiptir. Bu sıvı emme kapasitesi hızlı ve en iyi topaklanmayı sağlamaktadır. Doğal Bentonit’in süper sıvı emme özelliği sayesinde hızlı bir şekilde dayanıklı ve temizlenmesi kolay güçlü topaklar oluşturur.",
+      "price": 618,
+      "image": "/images/uploads/mycat-20-lt-bentonit-kedi-kumu-parfum-kokulu-ince-tane-resim-7152.jpeg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Parça Etli Yavru Kedi Konservesi 12'Li (400gr)",
+      "description": "TAVUK PARÇA ETLİ ve SOSLU YAVRU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Tavuk eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 554,
+      "image": "/images/uploads/mycat-tavuk-parca-etli-yavru-ked-resim-7426.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Parça Etli Yetişkin Kedi Konservesi 12'Li (400gr)",
+      "description": "TAVUK PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Tavuk eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 555,
+      "image": "/images/uploads/mycat-tavuk-parca-etli-yetiskin-resim-7427.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Parça Etli Yetişkin Kedi Konservesi 12'Li (400gr)",
+      "description": "SOMON PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n",
+      "price": 555,
+      "image": "/images/uploads/mycat-somon-parca-etli-yetiskin-resim-7430.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Parça Etli Yetişkin Kedi Konservesi 12'Li (400gr)",
+      "description": "KUZU PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Kuzu eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. \n",
+      "price": 555,
+      "image": "/images/uploads/mycat-kuzu-parca-etli-yetiskin-k-resim-7431.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Parça Etli Kısırlaştırılmış (Sterilised) Kedi Konservesi 12'Li (400gr)",
+      "description": "KUZU PARÇA ETLİ ve SOSLU KISIRLAŞTIRILMIŞ KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Kuzu eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları.",
+      "price": 555,
+      "image": "/images/uploads/mycat-kuzu-parca-etli-kisirlasti-resim-7432.jpg"
+    },
+    {
+      "category": "Elbise & Aksesuar",
+      "pet_type": "Kedi",
+      "name": "Mycat Kene Pire Tasması FDX",
+      "description": "",
+      "price": 500,
+      "image": "/images/uploads/mycat-kene-pire-tasmasi-resim-9022.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 2kg\n\nAZ TAHILLI URİNARY TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nBÖBREKLERİNDE KRİSTALLEŞME OLAN VEYA YATKIN OLAN TÜM IRK KEDİLER KULLANABİLİR",
+      "price": 555,
+      "image": "/images/uploads/mycat-az-tahilli-urinary-tavuk-etli-yetiskin-kedi-mamasi-2kg-resim-9186.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 2kg\n\nAZ TAHILLI SKİN CARE SOMON BALIKLI YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.",
+      "price": 555,
+      "image": "/images/uploads/mycat-az-tahilli-skin-care-somon-balikli-yetiskin-kedi-mamasi-2k-resim-9187.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 10kg\n\nAZ TAHILLI SKİN CARE SOMON BALIKLI YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.",
+      "price": 2325,
+      "image": "/images/uploads/az-tahilli-skin-care-somon-balikli-yetiskin-kedi-mamasi-10kg-resim-10757.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 10kg\n\nAZ TAHILLI KUZU ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nPROTEİN  %32\nFAT / YAĞ %14\n\n%100 MEMNUNİYET (PREMİUM İÇERİĞİ İLE  YÜKSEK YAŞAM KALİTESİ SUNAR)",
+      "price": 2325,
+      "image": "/images/uploads/az-tahilli-kuzu-etli-yetiskin-kedi-mamasi-10kg-resim-10758.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 10kg\n\nAZ TAHILLI URİNARY TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nBÖBREKLERİNDE KRİSTALLEŞME OLAN VEYA YATKIN OLAN TÜM IRK KEDİLER KULLANABİLİR\n\nPROTEİN  %34\nFAT / YAĞ %14\n\n%100 MEMNUNİYET (PREMİUM İÇERİĞİ İLE  YÜKSEK YAŞAM KALİTESİ SUNAR)",
+      "price": 2325,
+      "image": "/images/uploads/az-tahilli-urinary-tavuk-etli-yetiskin-kedi-mamasi-10kg-resim-10759.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 10kg \n\nAZ TAHILLI SOMON BALIKLI TÜM IRK KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nKİLOLU VEYA KISIR TÜM IRK KEDİLER KULLANABİLİR KİLO KONTROLÜ SAĞLAR.",
+      "price": 2325,
+      "image": "/images/uploads/az-tahilli-somon-balikli-diyet-kisir-kedi-mamasi-10kg-resim-10760.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somonlu (Kısırlaştırılmış) Sterilised Pouch Yaş Mama 85gr 4023",
+      "description": "KISIRLAŞTIRILMIŞ KEDİLER İÇİN JÖLE İÇİNDE SOMON ETLI TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Somon balığı),\nmineraller. Renklendirici ve koruyucu madde içermez\n\n\nANALITIK BiLESENLER: Protein %9.0. Yağ %5.0. Kil % 2.0, Lif %0.1 ,\nNem % 82.0.",
+      "price": 35,
+      "image": "/images/uploads/mycat-somonlu-kisirlastirilmis-sterilised-pouch-85gr-24lu-resim-6366.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Ciğerli Pouch Yaş Mama 85gr 4078",
+      "description": "JÖLE İÇİNDE CİĞERLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk ciğeri),\nmineraller. Renklendirici ve koruyucu madde içermez\n\n\nANALITIK BiLESENLER: Protein %9.0. Yağ %5.0. Kil % 2.0, Lif %0.1 ,\nNem % 82.0.",
+      "price": 34,
+      "image": "/images/uploads/4078-mycat-cigerli-pouch-85gr-24lu-resim-5625.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Hamsi Ve Ton Balıklı Pouch Yaş Mama 85gr 4047",
+      "description": "JÖLE İÇİNDE TON BALIĞI VE HAMSİLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Ton balığı),(en az %4 Hamsi)\nmineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 34,
+      "image": "/images/uploads/4047-mycat-hamsi-ve-tombalikli-pouch-85gr-24lu-resim-5623.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Etli Kitten Pouch Yaş Mama 85gr 4061",
+      "description": "YAVRU KEDİLER İÇİN JÖLE İÇİNDE TAVUK ETLİ  TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 35,
+      "image": "/images/uploads/4061-mycat-kitten-pouch-85gr-24lu-resim-5622.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Etli Pouch Yaş Mama 85gr 4009",
+      "description": "JÖLE İÇİNDE SOMON ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Somon balığı), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 35,
+      "image": "/images/uploads/4009-mycat-somonlu-pouch-85gr-24lu-resim-5621.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Sığır Etli Pouch Yaş Mama 85gr 4030",
+      "description": "JÖLE İÇİNDE SIĞIR ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Sığır Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 33,
+      "image": "/images/uploads/4030-mycat-sigiretli-pouch-85gr-24lu-resim-5620.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Etli Pouch Yaş Mama 85gr 4016",
+      "description": "JÖLE İÇİNDE TAVUK ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Tavuk Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 35,
+      "image": "/images/uploads/4016-mycat-tavuketli-pouch-85gr-24lu-resim-5619.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Etli Pouch Yaş Mama 85gr 4054",
+      "description": "JÖLE İÇİNDE KUZU ETLİ TAM BESLEYİCİ\nISLAK MAMA\n\n\nİCINDEKILER: Et ve hayvansal ürünler (en az '%4 Kuzu Eti), mineraller. Renklendirici ve koruyucu madde içermez",
+      "price": 35,
+      "image": "/images/uploads/4054-mycat-kuzuetli-pouch-85gr-24lu-resim-5618.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Parça Etli Kısırlaştırılmış (Sterilised) Kedi Konservesi (400gr)",
+      "description": "KUZU PARÇA ETLİ ve SOSLU KISIRLAŞTIRILMIŞ KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Kuzu eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 55,
+      "image": "/images/uploads/mycat-kuzu-parca-etli-kisirlasti-resim-11466.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Parça Etli Yetişkin Kedi Konservesi (400gr)",
+      "description": "KUZU PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Kuzu eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 55,
+      "image": "/images/uploads/mycat-kuzu-parca-etli-yetiskin-k-resim-11467.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Parça Etli Yetişkin Kedi Konservesi (400gr)",
+      "description": "SOMON PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri Balık ve balık ürünleri (Somon eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 55,
+      "image": "/images/uploads/mycat-somon-parca-etli-yetiskin-resim-11469.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Parça Etli Yavru Kedi Konservesi (400gr)",
+      "description": "TAVUK PARÇA ETLİ ve SOSLU YAVRU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Tavuk eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. ",
+      "price": 55,
+      "image": "/images/uploads/mycat-tavuk-parca-etli-yavru-ked-resim-11470.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Tavuk Parça Etli Yetişkin Kedi Konservesi (400gr)",
+      "description": "TAVUK PARÇA ETLİ ve SOSLU KEDİ MAMASI 400gr.\n\nKedilerin içgüdüsel beslenme alışkanlıklarına hitap eden ve beslenme sağlığını ön planda tutan, %100 MEMNUNİYET GARANTİLİ ÖZEL İÇERİK \n\n\nDostunuz için Vazgeçilmez Olacak!\n\nİçindekiler: Et ve et Ürünleri (Tavuk eti min. %4), Bitkisel ürünler, Mineraller ve Vitamin Katkıları. \n",
+      "price": 55,
+      "image": "/images/uploads/mycat-tavuk-parca-etli-yetiskin-resim-11471.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Yavru ve Anne Kuru Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Yavru ve Anne Kuru Kedi Maması 1kg\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE  TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nSAĞLIKLI BÜYÜMEYİ DESTEKLER.\n\nTÜM IRK KEDİLER İÇİN UYGUNDUR",
+      "price": 293,
+      "image": "/images/uploads/az-tahilli-somon-balikli-yavru-ve-anne-kuru-kedi-mamasi-1kg-resim-12712.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Skin Care Somon Balıklı Yetişkin Kedi Maması 1kg\n\nAZ TAHILLI SKİN CARE SOMON BALIKLI YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.\n\nTÜM IRK KEDİLER İÇİN UYGUNDUR",
+      "price": 300,
+      "image": "/images/uploads/az-tahilli-skin-care-somon-balikli-yetiskin-kedi-mamasi-1kg-resim-12716.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Kuzu Etli Yetişkin Kedi Maması 1kg\n\nAZ TAHILLI KUZU ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nPROTEİN  %36\nFAT / YAĞ %16\n\n%100 MEMNUNİYET (PREMİUM İÇERİĞİ İLE  YÜKSEK YAŞAM KALİTESİ SUNAR)",
+      "price": 300,
+      "image": "/images/uploads/az-tahilli-kuzu-etli-yetiskin-kedi-mamasi-1kg-resim-12718.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Urinary Tavuk Etli Yetişkin Kedi Maması 1kg\n\nAZ TAHILLI URİNARY TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nBÖBREKLERİNDE KRİSTALLEŞME OLAN VEYA YATKIN OLAN TÜM IRK KEDİLER KULLANABİLİR",
+      "price": 300,
+      "image": "/images/uploads/az-tahilli-urinary-tavuk-etli-yetiskin-kedi-mamasi-1kg-resim-12722.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Diyet & Kısır Kedi Maması 1kg\n\nAZ TAHILLI SOMON BALIKLI TÜM IRK KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nKİLOLU VEYA KISIR TÜM IRK KEDİLER KULLANABİLİR KİLO KONTROLÜ SAĞLAR.",
+      "price": 300,
+      "image": "/images/uploads/az-tahilli-somon-balikli-diyet-kisir-kedi-mamasi-1kg-resim-12737.png"
+    },
+    {
+      "category": "Bakım",
+      "pet_type": "Kedi",
+      "name": "Elekli Kedi Paspası",
+      "description": "MyCat elekli kedi paspası, kedinizin ayağına yapışan kumları temizleyerek kedi paspasının içerisine dökülmesini sağlar. Dökülen kumları tekrar kedi tuvalet kabına boşaltarak yeniden kullanmanızı ve kedi kumundan tasarruf etmenizi sağlar. Paspasımızın ölçüsü ise 60x39 santimetredir.\n\n",
+      "price": 250,
+      "image": "/images/uploads/mycat-elekli-kedi-paspasi-resim-14759.jpg"
+    },
+    {
+      "category": "Bakım",
+      "pet_type": "Kedi",
+      "name": "Hasır Tırmalama Paspası",
+      "description": "MyCat hasır tırmalama paspası, kedinizin halı, koltuk gibi ev içerisindeki eşyalarınıza zarar vermemesini sağlayacaktır. Özellikle ev içerisinde yaşayan kedilerin günlük enerji ihtiyacını gidermeyi destekleyerek dışarı çıkma isteğini azaltır. Sağlam bir hasır yüzeye sahip dayanıklıdır. Paspasımızın ölçüsü ise 57,5x36 santimetredir.",
+      "price": 250,
+      "image": "/images/uploads/hasir-tirmalama-paspasi-resim-14760.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 2kg\n\nAZ TAHILLI HAMSİ & SOMON BALIKLI SKİN CARE YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.",
+      "price": 555,
+      "image": "/images/uploads/mycat-az-tahilli-hamsi-somon-balikli-skin-care-yetiskin-kedi-m-resim-15916.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Yavru ve Anne Kedi Maması 2kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Yavru ve Anne Kedi Maması 2kg\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE  TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nSAĞLIKLI BÜYÜMEYİ DESTEKLER.\n\nTÜM IRK KEDİLER İÇİN UYGUNDUR",
+      "price": 555,
+      "image": "/images/uploads/mycat-az-tahilli-somon-balikli-yavru-ve-anne-kedi-mamasi-2kg-resim-15918.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 10kg\n\nAZ TAHILLI HAMSİ & SOMON BALIKLI SKİN CARE YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.\n\nPROTEİN  %32\nFAT / YAĞ %15\n\n%100 MEMNUNİYET (PREMİUM İÇERİĞİ İLE  YÜKSEK YAŞAM KALİTESİ SUNAR)",
+      "price": 2023,
+      "image": "/images/uploads/az-tahilli-hamsi-somon-balikli-skin-care-yetiskin-kedi-mamasi-resim-16020.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Somon Balıklı Yavru ve Anne Kuru Kedi Maması 10kg",
+      "description": "MyCat Original Az Tahıllı Somon Balıklı Yavru ve Anne Kuru Kedi Maması 10kg\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nSAĞLIKLI BÜYÜMEYİ DESTEKLER.\n\nTÜM IRK KEDİLER İÇİN UYGUNDUR",
+      "price": 2325,
+      "image": "/images/uploads/az-tahilli-somon-balikli-yavru-ve-anne-kuru-kedi-mamasi-10kg-resim-16021.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 1kg",
+      "description": "MyCat Original Az Tahıllı Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 1kg\n\nAZ TAHILLI HAMSİ & SOMON BALIKLI SKİN CARE YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.",
+      "price": 555,
+      "image": "/images/uploads/az-tahilli-somon-balikli-yavru-ve-anne-kuru-kedi-mamasi-10kg-resim-16021.png"
+    },
+    {
+      "category": "Diğer",
+      "pet_type": "Kedi",
+      "name": "Mağaza Özel Petfabrikası Sweatshirt",
+      "description": "Mağaza Özel Petfabrikası Sweatshirt",
+      "price": 1000,
+      "image": "/images/uploads/magaza-ozel-petfabrikasi-sweatshirt-resim-20740.png"
+    },
+    {
+      "category": "Diğer",
+      "pet_type": "Kedi",
+      "name": "Mağaza Özel Petfabrikası Sweatshirt",
+      "description": "Mağaza Özel Petfabrikası Sweatshirt",
+      "price": 1000,
+      "image": "/images/uploads/magaza-ozel-petfabrikasi-sweatshirt-resim2-20740.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı Yavru ve Anne Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Yavru ve Anne Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n\n- MyCat Yavru ve Anne Kedi Maması 2kg : 1 Adet\n\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE  TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 1000,
+      "image": "/images/uploads/temel-ihtiyac-paketi-yavru-ve-anne-kedi-mamasi-2kg-bentonit-resim-22747.png"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n- MyCat Somon Balıklı ve Tavuk Etli Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\nAZ TAHILLI SOMON BALIK VE TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nPROTEİN  %35\nFAT / YAĞ %17\n\n%100 MEMNUNİYET (PREMİUM İÇERİĞİ İLE  YÜKSEK YAŞAM KALİTESİ SUNAR)",
+      "price": 1000,
+      "image": "/images/uploads/somon-balikli-ve-tavuk-etli-yetiskin-kediler-icin-temel-ihtiyac-resim-22761.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Etli Yetişkin Kediler İçin  Temel İhtiyaç Paketi",
+      "description": "Kuzu Etli Yetişkin Kediler İçin  Temel İhtiyaç Paketi Paket İçeriği\n- MyCat Kuzu Etli Yetişkin Kedi Maması 2kg (1 Adet)\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\nAZ TAHILLI KUZU ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 993,
+      "image": "/images/uploads/kuzu-etli-yetiskin-kediler-icin-temel-ihtiyac-paketi-resim-22762.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Hamsi & Somon Balıklı Skin Care Yetişkin Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Hamsi & Somon Balıklı Skin Care Yetişkin Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n- MyCat Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\n\nAZ TAHILLI HAMSİ & SOMON BALIKLI SKİN CARE YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 998,
+      "image": "/images/uploads/hamsi-somon-balikli-skin-care-yetiskin-kediler-icin-temel-ihti-resim-22763.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Skin Care Somon Balıklı Yetişkin Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Skin Care Somon Balıklı Yetişkin Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n- MyCat Skin Care Somon Balıklı Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\nAZ TAHILLI SKİN CARE SOMON BALIKLI YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nAKTİF CİLT VE TÜY BAKIMINI DESTEKLEYEN İÇERİĞİ İLE SAĞLIKLI BİR CİLT VE TÜY OLUŞUMUNU DESTEKLER.\n\nTÜM IRK KEDİLER İÇİN UYGUNDUR",
+      "price": 1000,
+      "image": "/images/uploads/skin-care-somon-balikli-yetiskin-kediler-icin-temel-ihtiyac-pake-resim-22764.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Urinary Tavuk Etli Yetişkin Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Urinary Tavuk Etli Yetişkin Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n- MyCat Urinary Tavuk Etli Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\nAZ TAHILLI URİNARY TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)\n\nBÖBREKLERİNDE KRİSTALLEŞME OLAN VEYA YATKIN OLAN TÜM IRK KEDİLER KULLANABİLİR",
+      "price": 1000,
+      "image": "/images/uploads/urinary-tavuk-etli-yetiskin-kediler-icin-temel-ihtiyac-paketi-resim-22765.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı Diyet & Kısır Kediler İçin Temel İhtiyaç Paketi",
+      "description": "Somon Balıklı Diyet & Kısır Kediler İçin Temel İhtiyaç Paketi Paket İçeriği\n\n- MyCat Somon Balıklı Diyet & Kısır Kedi Maması 2kg : 1 Adet\n- MyCat Bentonit Kedi Kumu Aktif Karbon 10lt (İnce Tane) : 1 Adet\n\nAZ TAHILLI SOMON BALIKLI TÜM IRK KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)",
+      "price": 1000,
+      "image": "/images/uploads/somon-balikli-diyet-kisir-kediler-icin-temel-ihtiyac-paketi-resim-22766.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı Yavru ve Anne Kediler İçin Lezzet Paketi",
+      "description": "Yavru ve Anne Kediler İçin Lezzet Paketi Paket İçeriği\n\n- MyCat Yavru ve Anne Kedi Maması 2kg : 1 Adet\n\n- MyCat  Tavuk Etli Kitten Pouch Yaş Mama 85gr 4061 : 2 Adet\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE  TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 500,
+      "image": "/images/uploads/yavru-ve-anne-kediler-icin-lezzet-paketi-resim-22767.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Lezzet Paketi",
+      "description": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Lezzet Paketi Paket İçeriği\n\n- MyCat Somon Balıklı ve Tavuk Etli Yetişkin Kedi Maması 2kg : 1 Adet\n\n- MyCat Somon Etli Pouch Yaş Mama 85gr 4009 : 2 Adet\n\nAZ TAHILLI SOMON BALIK VE TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 500,
+      "image": "/images/uploads/somon-balikli-ve-tavuk-etli-yetiskin-kediler-icin-lezzet-paketi-resim-22768.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Kuzu Etli Yetişkin Kediler İçin Lezzet Paketi",
+      "description": "Kuzu Etli Yetişkin Kediler İçin Lezzet Paketi Paket İçeriği\n\n- MyCat Kuzu Etli Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Kuzu Etli Pouch Yaş Mama 85gr 4054 : 2 Adet\n\nAZ TAHILLI KUZU ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 498,
+      "image": "/images/uploads/kuzu-etli-yetiskin-kediler-icin-lezzet-paketi-resim-22770.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Skin Care Somon Balıklı Yetişkin Kediler İçin Lezzet Paketi",
+      "description": "Skin Care Somon Balıklı Yetişkin Kediler İçin Lezzet Paketi Paket İçeriği\n- MyCat Skin Care Somon Balıklı Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Somon Etli Pouch Yaş Mama 85gr 4009 : 2 Adet\n\n\nAZ TAHILLI SKİN CARE SOMON BALIKLI YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)",
+      "price": 495,
+      "image": "/images/uploads/skin-care-somon-balikli-yetiskin-kediler-icin-lezzet-paketi-resim-22771.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Hamsi & Somon Balıklı Skin Care Yetişkin Kediler İçin Lezzet Paketi",
+      "description": "Hamsi & Somon Balıklı Skin Care Yetişkin Kediler İçin Lezzet Paketi Paket İçeriği\n- MyCat Hamsi & Somon Balıklı Skin Care Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Hamsi Ve Ton Balıklı Pouch Yaş Mama 85gr 4047 : 2 Adet\n\nAZ TAHILLI HAMSİ & SOMON BALIKLI SKİN CARE YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 500,
+      "image": "/images/uploads/hamsi-somon-balikli-skin-care-yetiskin-kediler-icin-lezzet-pak-resim-22772.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Urinary Tavuk Etli Yetişkin Kediler İçin Lezzet Paketi",
+      "description": "Urinary Tavuk Etli Yetişkin Kediler İçin Lezzet Paketi Paket İçeriği\n- MyCat Urinary Tavuk Etli Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Tavuk Etli Pouch Yaş Mama 85gr 4016 : 2 Adet\n\nAZ TAHILLI URİNARY TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)",
+      "price": 500,
+      "image": "/images/uploads/urinary-tavuk-etli-yetiskin-kediler-icin-lezzet-paketi-resim-22773.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı Diyet & Kısır Kediler İçin Lezzet Paketi",
+      "description": "Somon Balıklı Diyet & Kısır Kediler İçin Lezzet Paketi Paket İçeriği\n\n- MyCat Somon Balıklı Diyet & Kısır Kedi Maması 2kg : 1 Adet\n- MyCat Somonlu (Kısırlaştırılmış) Sterilised Pouch Yaş Mama 85gr 4023 : 2 Adet\n\nAZ TAHILLI SOMON BALIKLI TÜM IRK KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.\n\nHYPOALLERGENICTİR ( HASSAS ALERJİYE SAHİP KEDİLER KULLANABİLİR)",
+      "price": 500,
+      "image": "/images/uploads/somon-balikli-diyet-kisir-kediler-icin-lezzet-paketi-resim-22774.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Yavru ve Anne Kediler İçin Bağışıklık Sistemi Güçlendirici Paketi",
+      "description": "Yavru ve Anne Kediler İçin Bağışıklı Sistemi Güçlendirici Paketi Paket İçeriği\n- MyCat Somon Balıklı Yavru ve Anne Kedi Maması 2kg : 1 Adet\n- MyCat Nova Premium Kitten&Mother Anti Hairball Malt Paste : 1 Adet\n\nAZ TAHILLI SOMON BALIKLI YAVRU & ANNE  TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 500,
+      "image": "/images/uploads/yavru-ve-anne-kediler-icin-bagisikli-sistemi-guclendirici-paketi-resim-22775.jpg"
+    },
+    {
+      "category": "Mama",
+      "pet_type": "Kedi",
+      "name": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Bağışıklık Sistemi Güçlendirici Paketi",
+      "description": "Somon Balıklı ve Tavuk Etli Yetişkin Kediler İçin Bağışıklı Sistemi Güçlendirici Paketi Paket İçeriği\n- MyCat Somon Balıklı ve Tavuk Etli Yetişkin Kedi Maması 2kg : 1 Adet\n- MyCat Nova Premium Anti Hairball Malt Paste : 1 Adet\n\n\nAZ TAHILLI SOMON BALIK VE TAVUK ETLİ YETİŞKİN TÜM KEDİLERE DAHA YÜKSEK YAŞAM KALİTESİ SAĞLAMAK İÇİN TASARLANMIŞTIR.",
+      "price": 500,
+      "image": "/images/uploads/somon-balikli-ve-tavuk-etli-yetiskin-kediler-icin-bagisikli-sist-resim-22776.png"
     }
   ]
 }
